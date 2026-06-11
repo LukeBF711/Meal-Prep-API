@@ -8,12 +8,16 @@ a {
     text-decoration: none;
 }
 
+.flex {
+    display: flex;
+}
+
 /* nav bar/header */
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: bisque;
+    background-color: #FFF8EC;
     padding: 1% 2%;
 }
 
@@ -30,4 +34,29 @@ nav ul {
 .logo {
     font-size: 1.5rem;
 }
+
+/* main heading and search */
+.hero-main {
+    justify-content: center;
+    background-color: #546B41;
+    height: 50vh;
+    align-items: center;
+}
+
+.hero-inner {
+    color: #fff;
+    text-align: center;
+    height: auto;
+    padding: 10px 20px;
+}
+
+.hero-inner > h1 {
+    font-size: 4rem;
+}
+
+.custom-btn {
+    margin-top: 10px;
+    background-color: #DCCCAC
+}
+
 
