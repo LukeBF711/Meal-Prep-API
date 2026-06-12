@@ -55,8 +55,9 @@ nav ul {
 }
 
 .custom-btn {
-    margin-top: 10px;
-    background-color: #DCCCAC
+    margin-top: 15px;
+    background-color: #DCCCAC;
+    border: none;
 }
 
 
